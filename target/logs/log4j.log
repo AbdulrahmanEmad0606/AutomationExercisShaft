@@ -1,0 +1,351 @@
+[INFO ] 2023-04-25 21:52:28.387 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Powered by SHAFT Engine v7.2.20230419                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - File Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"".
+[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-04-25 21:52:29.494 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getPreserveOrder: true
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getDataProviderThreadCount: 1
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getThreadCount: 1
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getVerbose: 1
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getGroupByInstances: true
+[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getParallel: none
+[INFO ] 2023-04-25 21:52:30.064 [main] Utils - [TestNG] Running:
+  D:\Study\Shaft\Automationexercise\src\test\java\ExecutionFiles\Auth.xml
+
+[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0210 pm
+<ul>
+    <li>👨‍💻️ <a href="https://github.com/ShaftHQ/SHAFT_ENGINE" target=”_blank”>GitHub - Home</a></li>
+    <li>👤 <a href="https://shafthq.github.io/SHAFT_Engine_Docusaurus/" target=”_blank”>User Guide</a></li>
+    <li>⚙️ <a href="https://shafthq.github.io/SHAFT_ENGINE/" target=”_blank”>Configuration Manager</a></li>
+    <li>📚 <a href="https://shafthq.github.io/SHAFT_ENGINE/apidocs/index.html" target=”_blank”>Javadocs</a></li>
+</ul>
+
+[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0270 pm
+#############
+# https://cucumber.io/docs/cucumber/api/#list-configuration-options
+##############
+cucumber.ansi-colors.disabled=false
+#true or false. default: false
+cucumber.execution.dry-run=false
+#true or false. default: false
+cucumber.execution.limit=
+#number of scenarios to execute (CLI only).
+cucumber.execution.order=lexical
+#lexical, reverse, random or random:[seed] (CLI only). default: lexical
+cucumber.execution.strict=true
+#true or false. default: true.
+cucumber.execution.wip=false
+#true or false. default: false.
+cucumber.features=src/test/resources
+#comma separated paths to feature files. example: path/to/example.feature, path/to/other.feature
+cucumber.filter.name=
+#regex. example: .*Hello.*
+cucumber.filter.tags=
+#tag expression. example: @smoke and not @slow
+cucumber.glue=customCucumberSteps, com.shaft.cucumber
+# comma separated package names. example: com.example.glue
+cucumber.plugin=pretty, json:allure-results/cucumber.json, html:allure-results/cucumberReport.html, com.shaft.listeners.CucumberTestRunnerListener
+# comma separated plugin strings. example: pretty, json:path/to/report.json
+cucumber.object-factory=
+#object factory class name. example: com.example.MyObjectFactory
+cucumber.snippet-type=underscore
+#underscore or camelcase. default: underscore
+cucumber.publish.quiet=true
+CUCUMBER_PUBLISH_ENABLED=false
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+# Use this to add any custom capabilities
+# This includes SeeTest Continuous Testing cloud platform capabilities: https://docs.experitest.com/display/TE/Application+Setup
+capabilities.accessKey=
+capabilities.appiumVersion=
+capabilities.deviceQuery=
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+###################################################
+##### SHAFT_Engine: JiraXRay.properties
+###################################################
+jiraInteraction=false
+jiraUrl=https://
+projectKey=
+authType=undefined
+authorization=
+reportTestCasesExecution=true
+reportPath=target/surefire-reports/testng-results.xml
+ExecutionName=
+ExecutionDescription=
+ReportBugs=true
+assignee=
+allure.link.tms.pattern=https:///{} 
+allure.link.custom.pattern={}
+###################################################
+##### END of Properties File
+###################################################
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+name=PropertiesConfig
+appender.console.type=Console
+appender.console.name=STDOUT
+appender.console.layout.type=PatternLayout
+appender.console.layout.disableAnsi=false
+appender.console.layout.pattern=%highlight{[%p]}{FATAL=red blink, ERROR=red bold, WARN=yellow bold, INFO=fg_#0060a8 bold, DEBUG=fg_#43b02a bold, TRACE=black} %style{%m }%style{| %-logger}{bright_black} %style{- %-thread}{bright_black} %style{- %d{hh:mm:ss a}}{bright_black} %n
+appender.console.filter.threshold.type=ThresholdFilter
+appender.console.filter.threshold.level=info
+appender.file.type=File
+appender.file.name=LOGFILE
+appender.file.fileName=target/logs/log4j.log
+appender.file.layout.type=PatternLayout
+appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+appender.file.filter.threshold.type=ThresholdFilter
+appender.file.filter.threshold.level=debug
+rootLogger=debug, STDOUT, LOGFILE
+logger.app.name=org.apache.http.impl.client
+logger.app.level=WARN
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+###################################################
+##### SHAFT_Engine Path Properties
+###################################################
+propertiesFolderPath_CI=
+propertiesFolderPath=src/main/resources/properties/
+dynamicObjectRepositoryPath=src/main/resources/dynamicObjectRepository/
+testDataFolderPath=src/test/resources/testDataFiles/
+downloadsFolderPath=target/downloadedFiles/
+allureResultsFolderPath=allure-results/
+extentReportsFolderPath=extent-reports/
+video.folder=allure-results/videos
+applitoolsApiKey=
+###################################################
+##### END of Properties File
+###################################################
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+###################################################
+##### SHAFT_Engine: Reporting.properties
+###################################################
+captureElementName=true
+captureWebDriverLogs=true
+alwaysLogDiscreetly=true
+debugMode=true
+cleanAllureResultsDirectoryBeforeExecution=true
+generateAllureReportArchive=true
+openAllureReportAfterExecution=true
+generateExtentReports=true
+cleanExtentReportsDirectoryBeforeExecution=true
+attachExtentReportToAllureReport=true
+openExecutionSummaryReportAfterExecution=true
+openLighthouseReportWhileExecution=true
+###################################################
+##### END of Properties File
+###################################################
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+###################################################
+##### SHAFT_Engine: TestNG.properties
+###################################################
+setParallel=NONE
+setThreadCount=1
+setVerbose=1
+setPreserveOrder=true
+setGroupByInstances=true
+setDataProviderThreadCount=1
+###################################################
+##### END of PropertiesHelper File
+###################################################
+
+[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+###################################################
+##### SHAFT_Engine: VisualValidations.properties
+###################################################
+screenshotParams_scalingFactor=1
+screenshotParams_whenToTakeAScreenshot=ValidationPointsOnly
+screenshotParams_screenshotType=FullPage
+screenshotParams_highlightElements=true
+screenshotParams_highlightMethod=AI
+screenshotParams_skippedElementsFromScreenshot=
+screenshotParams_watermark=true
+screenshotParams_watermarkOpacity=0.2
+createAnimatedGif=true
+animatedGif_frameDelay=500
+videoParams_recordVideo=true
+videoParams_scope=DriverSession
+whenToTakePageSourceSnapshot=FailuresOnly
+###################################################
+##### END of Properties File
+###################################################
+
+[INFO ] 2023-04-25 21:52:30.302 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                      'Suits.RegisterTests.Register.setUp'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-04-25 21:52:30.715 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 22:42:26 25/04/2023 EET)
+[DEBUG] 2023-04-25 21:52:30.715 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 03:20:10 26/04/2023 EET)
+[INFO ] 2023-04-25 21:52:30.715 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+[DEBUG] 2023-04-25 21:52:30.731 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
+[INFO ] 2023-04-25 21:52:30.731 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 10705
+[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-04-25 21:52:31.017 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: client
+[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: profiler
+[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: server
+[WARN ] 2023-04-25 21:52:32.090 [main] ReportManager - Apr 25, 2023 9:52:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-04-25 21:52:32.090 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+[INFO ] 2023-04-25 21:52:32.115 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-04-25 21:52:32.226 [main] MonteRecorder - Recording started
+[INFO ] 2023-04-25 21:52:32.259 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2023-04-25 21:52:54.804 [main] ReportManager - File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230425-215254", Target File: "\1682452374611_setUp.gif"".
+[INFO ] 2023-04-25 21:52:56.204 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2023-04-25 21:52:56.204 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                      Test Method: 'Suits.RegisterTests.Register.testAccountCreatedMessage'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:52:57.300 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2023-04-25 21:53:00.800 [main] ReportManager - Type "Abdo" into "Name".
+[INFO ] 2023-04-25 21:53:01.407 [main] ReportManager - Type "ddd6@ddaaqqwddd.com" into "Email Address".
+[INFO ] 2023-04-25 21:53:02.168 [main] ReportManager - Click "Signup".
+[INFO ] 2023-04-25 21:53:06.373 [main] ReportManager - Click "Mr.".
+[INFO ] 2023-04-25 21:53:09.058 [main] ReportManager - Type "123456" into "Password *".
+[INFO ] 2023-04-25 21:53:10.561 [main] ReportManager - Select "6" from "By.id: days".
+[INFO ] 2023-04-25 21:53:12.468 [main] ReportManager - Select "June" from "By.id: months".
+[INFO ] 2023-04-25 21:53:15.780 [main] ReportManager - Select "1998" from "By.id: years".
+[INFO ] 2023-04-25 21:53:17.203 [main] ReportManager - Click "By.cssSelector: [for='newsletter']".
+[INFO ] 2023-04-25 21:53:18.873 [main] ReportManager - Type "test" into "First name *".
+[INFO ] 2023-04-25 21:53:20.354 [main] ReportManager - Type "dd" into "Last name *".
+[INFO ] 2023-04-25 21:53:21.695 [main] ReportManager - Type "youxel" into "Company".
+[INFO ] 2023-04-25 21:53:23.182 [main] ReportManager - Type "eee" into "Address * (Street address, P.O. Box, Company name, etc.)".
+[INFO ] 2023-04-25 21:53:24.971 [main] ReportManager - Select "Canada" from "Country *".
+[INFO ] 2023-04-25 21:53:26.126 [main] ReportManager - Type "ddd" into "State *".
+[INFO ] 2023-04-25 21:53:27.193 [main] ReportManager - Type "ddd" into "City * Zipcode *".
+[INFO ] 2023-04-25 21:53:28.139 [main] ReportManager - Type "123" into "By.id: zipcode".
+[INFO ] 2023-04-25 21:53:29.287 [main] ReportManager - Type "01234564" into "Mobile Number *".
+[INFO ] 2023-04-25 21:53:30.185 [main] ReportManager - Click "Create Account".
+[INFO ] 2023-04-25 21:53:34.763 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:53:35.699 [main] ReportManager - Get text "ACCOUNT CREATED!" from "By.cssSelector: h2 b".
+[INFO ] 2023-04-25 21:53:35.699 [main] ReportManager - Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!"
+[INFO ] 2023-04-25 21:53:37.233 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE".
+[INFO ] 2023-04-25 21:53:37.241 [main] ReportManager - Successfully created attachment 'Screenshot - 1682452416495_testAccountCreatedMessage_ValidateElementAttribute_passed'
+[INFO ] 2023-04-25 21:53:38.484 [main] ReportManager - Click "Continue".
+[INFO ] 2023-04-25 21:53:38.521 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:53:44.295 [main] ReportManager - Get text "Logged in as Abdo" from "By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a".
+[INFO ] 2023-04-25 21:53:44.295 [main] ReportManager - Expected "Logged in as Abdo", and actual "Logged in as Abdo"
+[INFO ] 2023-04-25 21:53:45.812 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as Abdo' for the 'text' attribute, element locator 'By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-04-25 21:53:45.815 [main] ReportManager - Successfully created attachment 'Screenshot - 1682452425387_testAccountCreatedMessage_ValidateElementAttribute_passed'
+[INFO ] 2023-04-25 21:55:19.539 [main] ReportManager - Click " Delete Account".
+[INFO ] 2023-04-25 21:55:19.543 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-04-25 21:55:19.543 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-04-25 21:55:19.551 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:55:19.551 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:55:19.553 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:55:19.553 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-25 21:55:19.557 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-04-25 21:55:19.557 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-04-25 21:55:19.567 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 22:42:26 25/04/2023 EET)
+[DEBUG] 2023-04-25 21:55:19.567 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 03:20:10 26/04/2023 EET)
+[INFO ] 2023-04-25 21:55:19.570 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+[DEBUG] 2023-04-25 21:55:19.576 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
+[INFO ] 2023-04-25 21:55:19.576 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+[WARN ] 2023-04-25 21:55:19.628 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 5628
+[WARN ] 2023-04-25 21:55:19.633 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-04-25 21:55:19.633 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-04-25 21:55:19.645 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: client
+[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: profiler
+[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: server
+[WARN ] 2023-04-25 21:55:20.368 [main] ReportManager - Apr 25, 2023 9:55:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-04-25 21:55:20.371 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+[INFO ] 2023-04-25 21:55:20.371 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-04-25 21:55:20.388 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Failed to Get text from "By.cssSelector: h2 b".
+[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Setting discrete logging to: 'true'
+[ERROR] 2023-04-25 21:55:49.854 [main] ReportManager - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e79a36f22304ab246f141e2ca8197caa, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59671}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59671/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e79a36f22304ab246f141e2ca8197caa
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+ org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+ com.shaft.gui.internal.image.ScreenshotManager.takeViewportScreenshot(ScreenshotManager.java:235)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:440)
+ com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:378)
+ com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:123)
+ com.shaft.validation.internal.ValidationsHelper.reportValidationState(ValidationsHelper.java:688)
+ com.shaft.validation.internal.ValidationsHelper.fail(ValidationsHelper.java:450)
+ com.shaft.validation.internal.ValidationsHelper.validateElementAttribute(ValidationsHelper.java:165)
+ com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:149)
+ Suits.RegisterTests.Register.testAccountCreatedMessage(Register.java:38)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:577)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:829)
+ org.testng.TestRunner.run(TestRunner.java:602)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+ org.testng.SuiteRunner.run(SuiteRunner.java:330)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+ org.testng.TestNG.runSuites(TestNG.java:1099)
+ org.testng.TestNG.run(TestNG.java:1067)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+[DEBUG] 2023-04-25 21:55:53.930 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (e79a36f22304ab246f141e2ca8197caa)
+[DEBUG] 2023-04-25 21:55:53.930 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (cd279ba5d6214c4054749d2e1ae4611d)

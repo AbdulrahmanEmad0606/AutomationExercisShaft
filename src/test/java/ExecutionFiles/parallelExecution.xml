@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel GUI">
+    <suite-files>
+        <suite-file path="HomePage.xml"/>
+        <suite-file path="Auth.xml"/>
+    </suite-files>
+</suite>
