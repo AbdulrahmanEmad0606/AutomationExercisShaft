@@ -1,0 +1,19 @@
+[ReportManager] Setting discrete logging to: 'false' @29-04-2023 18:32:18.0375 pm
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                           Test Method: 'Suits.Login.LoginTest.testLoginFunctionality'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Setting discrete logging to: 'true' @29-04-2023 18:32:18.0375 pm
+[ReportManager] Click " Signup / Login". @29-04-2023 18:32:19.0220 pm
+[ReportManager] Type "testAbdoEmad12345678910@gmail.com" into "Email Address". @29-04-2023 18:32:21.0906 pm
+[ReportManager] Type "123456" into "Password". @29-04-2023 18:32:22.0601 pm
+[ReportManager] Click "Login". @29-04-2023 18:32:23.0238 pm
+[ReportManager] Setting discrete logging to: 'true' @29-04-2023 18:32:28.0563 pm
+[ReportManager] Get text "Logged in as Abdo" from "By.xpath: //div/div/div/div[2]/div/ul/li[10]/a". @29-04-2023 18:32:29.0257 pm
+[ReportManager] Expected "Logged in as", and actual "Logged in as Abdo" @29-04-2023 18:32:29.0257 pm
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as' for the 'text' attribute, element locator 'By.xpath: //div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE". @29-04-2023 18:32:30.0271 pm
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div/div/div/div[2]/div/ul/li[10]/a" text contains "Logged in as". @29-04-2023 18:32:30.0271 pm
+[ReportManager] Successfully created attachment 'Screenshot - 1682782350059_testLoginFunctionality_ValidateElementAttribute_passed' @29-04-2023 18:32:30.0279 pm
+[ReportManager] Successfully created attachment 'Animated Gif - testLoginFunctionality' @29-04-2023 18:32:30.0288 pm

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="274.758" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="66.191" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="appender.console.type" value="Console"/>
     <property name="cucumber.publish.quiet" value="true"/>
@@ -22,7 +22,7 @@
     <property name="ReportBugs" value="true"/>
     <property name="allureResultsFolderPath" value="allure-results/"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire7207513318397078382\surefirebooter-20230425214654534_3.jar C:\Users\DELL\AppData\Local\Temp\surefire7207513318397078382 2023-04-25T21-46-54_424-jvmRun1 surefire-20230425214654534_1tmp surefire_0-20230425214654534_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire2229586464794945500\surefirebooter-20230429183128625_3.jar C:\Users\DELL\AppData\Local\Temp\surefire2229586464794945500 2023-04-29T18-31-28_517-jvmRun1 surefire-20230429183128625_1tmp surefire_0-20230429183128625_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="appender.console.filter.threshold.type" value="ThresholdFilter"/>
     <property name="screenshotParams_watermarkOpacity" value="0.2"/>
@@ -91,7 +91,7 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="openAllureReportAfterExecution" value="true"/>
     <property name="user.variant" value=""/>
-    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="user.timezone" value="Asia/Riyadh"/>
     <property name="videoParams_scope" value="DriverSession"/>
     <property name="downloadsFolderPath" value="target/downloadedFiles/"/>
     <property name="java.vm.specification.version" value="18"/>
@@ -118,7 +118,7 @@
     <property name="appender.console.name" value="STDOUT"/>
     <property name="appender.file.name" value="LOGFILE"/>
     <property name="debugMode" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire7207513318397078382\surefirebooter-20230425214654534_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire2229586464794945500\surefirebooter-20230429183128625_3.jar"/>
     <property name="appender.console.layout.disableAnsi" value="false"/>
     <property name="applitoolsApiKey" value=""/>
     <property name="cucumber.plugin" value="pretty, json:allure-results/cucumber.json, html:allure-results/cucumberReport.html, com.shaft.listeners.CucumberTestRunnerListener"/>
@@ -152,1260 +152,318 @@
     <property name="video.folder" value="allure-results/videos"/>
     <property name="webdriver.http.factory" value="jdk-http-client"/>
   </properties>
-  <testcase name="checkVisibilityOfHomePage" classname="Suits.HomePageTests.HomePageTest" time="2.486">
+  <testcase name="testRegister" classname="Suits.RegisterTests.Register" time="24.407">
     <system-out><![CDATA[&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                       Powered by SHAFT Engine v7.2.20230419                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------
- &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:58 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mLoaded OpenCV "opencv_java470". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Allure Reporting Environment... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Extent Reporting Environment... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetPreserveOrder: true &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetDataProviderThreadCount: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetThreadCount: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetVerbose: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetGroupByInstances: true &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetParallel: none &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:46:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:32 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mLoaded OpenCV "opencv_java470". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:33 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:33 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Allure Reporting Environment... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:33 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Extent Reporting Environment... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:33 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetPreserveOrder: true &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetDataProviderThreadCount: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetThreadCount: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetVerbose: 1 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetGroupByInstances: true &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mgetParallel: none &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
 &amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
 ------------------------------------------------------------------------------------------------------------------------------------------------
-                                                Starting execution of set up configuration method                                                
-                                                    'Suits.HomePageTests.HomePageTest.setUp'                                                    
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
- &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "targetOperatingSystem" property with "WINDOWS". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "screenshotParams_screenshotType" property with "Regular". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAttempting to run locally on: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mIdentifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mUsing chromedriver 112.0.5615.49 (resolved driver for Chrome 112) &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mStarting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 35649 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mOnly local connections are allowed. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mChromeDriver was started successfully. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452021.024][WARNING]: Ignoring unrecognized log type: client &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452021.024][WARNING]: Ignoring unrecognized log type: profiler &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452021.024][WARNING]: Ignoring unrecognized log type: server &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mApr 25, 2023 9:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mWARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully Opened: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:01 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mRecording started &amp#27;[m&amp#27;[90m| com.automation.remarks.video.recorder.monte.MonteRecorder&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:02 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mTarget URL: "https://automationexercise.com/" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:02 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230425-214754", Target File: "\1682452075244_setUp.gif"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:55 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mNavigate to url "https://automationexercise.com/". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
-------------------------------------------------------------------------------------------------------------------------------------------------
-                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
-                                    Test Method: 'Suits.HomePageTests.HomePageTest.checkVisibilityOfHomePage'                                    
-------------------------------------------------------------------------------------------------------------------------------------------------
- &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mGet current url "https://automationexercise.com/". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExpected "https://automationexercise.com/", and actual "https://automationexercise.com/" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:57 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAssertion "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://automationexercise.com/' for the 'currenturl' attribute" and Actual "https://automationexercise.com/". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Screenshot - 1682452078838_checkVisibilityOfHomePage_ValidateBrowserAttribute_passed' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Animated Gif - checkVisibilityOfHomePage' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'SHAFT Engine Logs - Current Method log: checkVisibilityOfHomePage' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-]]></system-out>
-  </testcase>
-  <testcase name="testAccountCreatedMessage" classname="Suits.RegisterTests.Register" time="197.101">
-    <failure type="java.lang.StackOverflowError"><![CDATA[java.lang.StackOverflowError
-	at java.base/java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:230)
-	at java.base/java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:571)
-	at java.base/java.lang.StringBuilder.append(StringBuilder.java:179)
-	at java.base/java.lang.StringBuilder.append(StringBuilder.java:91)
-	at java.base/java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:609)
-	at java.base/java.lang.StringBuilder.append(StringBuilder.java:209)
-	at java.base/java.lang.StringBuilder.append(StringBuilder.java:91)
-	at java.base/java.util.Formatter$FormatSpecifier.appendJustified(Formatter.java:3173)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3163)
-	at java.base/java.util.Formatter$FormatSpecifier.printString(Formatter.java:3136)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3013)
-	at java.base/java.util.Formatter.format(Formatter.java:2769)
-	at java.base/java.util.Formatter.format(Formatter.java:2705)
-	at java.base/java.lang.String.format(String.java:4138)
-	at org.openqa.selenium.SharedCapabilitiesMethods.lambda$abbreviate$6(SharedCapabilitiesMethods.java:107)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.SharedCapabilitiesMethods.abbreviate(SharedCapabilitiesMethods.java:108)
-	at org.openqa.selenium.SharedCapabilitiesMethods.lambda$abbreviate$6(SharedCapabilitiesMethods.java:107)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.SharedCapabilitiesMethods.abbreviate(SharedCapabilitiesMethods.java:108)
-	at org.openqa.selenium.SharedCapabilitiesMethods.toString(SharedCapabilitiesMethods.java:78)
-	at org.openqa.selenium.ImmutableCapabilities.toString(ImmutableCapabilities.java:195)
-	at org.openqa.selenium.remote.RemoteWebDriver.populateWebDriverException(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:570)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:40)
-	at org.openqa.selenium.chromium.AddHasCdp$1.executeCdpCommand(AddHasCdp.java:58)
-	at org.openqa.selenium.chromium.ChromiumDriver.executeCdpCommand(ChromiumDriver.java:212)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:255)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-	at com.shaft.gui.browser.internal.BrowserActionsHelpers.capturePageSnapshot(BrowserActionsHelpers.java:268)
-]]></failure>
-    <system-out><![CDATA[&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Important Links... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0459 pm
+<ul>
+    <li>👨‍💻️ <a href="https://github.com/ShaftHQ/SHAFT_ENGINE" target=”_blank”>GitHub - Home</a></li>
+    <li>👤 <a href="https://shafthq.github.io/SHAFT_Engine_Docusaurus/" target=”_blank”>User Guide</a></li>
+    <li>⚙️ <a href="https://shafthq.github.io/SHAFT_ENGINE/" target=”_blank”>Configuration Manager</a></li>
+    <li>📚 <a href="https://shafthq.github.io/SHAFT_ENGINE/apidocs/index.html" target=”_blank”>Javadocs</a></li>
+</ul>
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mInitializing Properties... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0521 pm
+#############
+# https://cucumber.io/docs/cucumber/api/#list-configuration-options
+##############
+cucumber.ansi-colors.disabled=false
+#true or false. default: false
+cucumber.execution.dry-run=false
+#true or false. default: false
+cucumber.execution.limit=
+#number of scenarios to execute (CLI only).
+cucumber.execution.order=lexical
+#lexical, reverse, random or random:[seed] (CLI only). default: lexical
+cucumber.execution.strict=true
+#true or false. default: true.
+cucumber.execution.wip=false
+#true or false. default: false.
+cucumber.features=src/test/resources
+#comma separated paths to feature files. example: path/to/example.feature, path/to/other.feature
+cucumber.filter.name=
+#regex. example: .*Hello.*
+cucumber.filter.tags=
+#tag expression. example: @smoke and not @slow
+cucumber.glue=customCucumberSteps, com.shaft.cucumber
+# comma separated package names. example: com.example.glue
+cucumber.plugin=pretty, json:allure-results/cucumber.json, html:allure-results/cucumberReport.html, com.shaft.listeners.CucumberTestRunnerListener
+# comma separated plugin strings. example: pretty, json:path/to/report.json
+cucumber.object-factory=
+#object factory class name. example: com.example.MyObjectFactory
+cucumber.snippet-type=underscore
+#underscore or camelcase. default: underscore
+cucumber.publish.quiet=true
+CUCUMBER_PUBLISH_ENABLED=false
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0538 pm
+# Use this to add any custom capabilities
+# This includes SeeTest Continuous Testing cloud platform capabilities: https://docs.experitest.com/display/TE/Application+Setup
+capabilities.accessKey=
+capabilities.appiumVersion=
+capabilities.deviceQuery=
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0541 pm
+###################################################
+##### SHAFT_Engine: JiraXRay.properties
+###################################################
+jiraInteraction=false
+jiraUrl=https://
+projectKey=
+authType=undefined
+authorization=
+reportTestCasesExecution=true
+reportPath=target/surefire-reports/testng-results.xml
+ExecutionName=
+ExecutionDescription=
+ReportBugs=true
+assignee=
+allure.link.tms.pattern=https:///{} 
+allure.link.custom.pattern={}
+###################################################
+##### END of Properties File
+###################################################
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0542 pm
+name=PropertiesConfig
+appender.console.type=Console
+appender.console.name=STDOUT
+appender.console.layout.type=PatternLayout
+appender.console.layout.disableAnsi=false
+appender.console.layout.pattern=%highlight{[%p]}{FATAL=red blink, ERROR=red bold, WARN=yellow bold, INFO=fg_#0060a8 bold, DEBUG=fg_#43b02a bold, TRACE=black} %style{%m }%style{| %-logger}{bright_black} %style{- %-thread}{bright_black} %style{- %d{hh:mm:ss a}}{bright_black} %n
+appender.console.filter.threshold.type=ThresholdFilter
+appender.console.filter.threshold.level=info
+appender.file.type=File
+appender.file.name=LOGFILE
+appender.file.fileName=target/logs/log4j.log
+appender.file.layout.type=PatternLayout
+appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+appender.file.filter.threshold.type=ThresholdFilter
+appender.file.filter.threshold.level=debug
+rootLogger=debug, STDOUT, LOGFILE
+logger.app.name=org.apache.http.impl.client
+logger.app.level=WARN
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0543 pm
+###################################################
+##### SHAFT_Engine Path Properties
+###################################################
+propertiesFolderPath_CI=
+propertiesFolderPath=src/main/resources/properties/
+dynamicObjectRepositoryPath=src/main/resources/dynamicObjectRepository/
+testDataFolderPath=src/test/resources/testDataFiles/
+downloadsFolderPath=target/downloadedFiles/
+allureResultsFolderPath=allure-results/
+extentReportsFolderPath=extent-reports/
+video.folder=allure-results/videos
+applitoolsApiKey=
+###################################################
+##### END of Properties File
+###################################################
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0544 pm
+###################################################
+##### SHAFT_Engine: Reporting.properties
+###################################################
+captureElementName=true
+captureWebDriverLogs=true
+alwaysLogDiscreetly=true
+debugMode=true
+cleanAllureResultsDirectoryBeforeExecution=true
+generateAllureReportArchive=true
+openAllureReportAfterExecution=true
+generateExtentReports=true
+cleanExtentReportsDirectoryBeforeExecution=true
+attachExtentReportToAllureReport=true
+openExecutionSummaryReportAfterExecution=true
+openLighthouseReportWhileExecution=true
+###################################################
+##### END of Properties File
+###################################################
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0545 pm
+###################################################
+##### SHAFT_Engine: TestNG.properties
+###################################################
+setParallel=NONE
+setThreadCount=1
+setVerbose=1
+setPreserveOrder=true
+setGroupByInstances=true
+setDataProviderThreadCount=1
+###################################################
+##### END of PropertiesHelper File
+###################################################
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m[ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0546 pm
+###################################################
+##### SHAFT_Engine: VisualValidations.properties
+###################################################
+screenshotParams_scalingFactor=1
+screenshotParams_whenToTakeAScreenshot=ValidationPointsOnly
+screenshotParams_screenshotType=FullPage
+screenshotParams_highlightElements=true
+screenshotParams_highlightMethod=AI
+screenshotParams_skippedElementsFromScreenshot=
+screenshotParams_watermark=true
+screenshotParams_watermarkOpacity=0.2
+createAnimatedGif=true
+animatedGif_frameDelay=500
+videoParams_recordVideo=true
+videoParams_scope=DriverSession
+whenToTakePageSourceSnapshot=FailuresOnly
+###################################################
+##### END of Properties File
+###################################################
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
 &amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                 Starting execution of set up configuration method                                                
                                                       'Suits.RegisterTests.Register.setUp'                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------
- &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "targetOperatingSystem" property with "WINDOWS". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "screenshotParams_screenshotType" property with "Regular". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAttempting to run locally on: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mIdentifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mUsing chromedriver 112.0.5615.49 (resolved driver for Chrome 112) &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mStarting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 18284 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mOnly local connections are allowed. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mChromeDriver was started successfully. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452079.736][WARNING]: Ignoring unrecognized log type: client &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452079.736][WARNING]: Ignoring unrecognized log type: profiler &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452079.736][WARNING]: Ignoring unrecognized log type: server &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:47:59 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mApr 25, 2023 9:48:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:00 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mWARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully Opened: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mTarget URL: "https://automationexercise.com/" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:00 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230425-214754", Target File: "\1682452086114_setUp.gif"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:06 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mNavigate to url "https://automationexercise.com/". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:07 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:07 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:07 pm&amp#27;[m 
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "targetOperatingSystem" property with "WINDOWS". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "screenshotParams_screenshotType" property with "Regular". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAttempting to run locally on: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mIdentifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mUsing chromedriver 112.0.5615.49 (resolved driver for Chrome 112) &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:34 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mStarting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 1506 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mOnly local connections are allowed. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mChromeDriver was started successfully. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782295.504][WARNING]: Ignoring unrecognized log type: client &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782295.505][WARNING]: Ignoring unrecognized log type: profiler &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782295.505][WARNING]: Ignoring unrecognized log type: server &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:31:35 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mApr 29, 2023 6:31:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:36 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mWARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:36 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully Opened: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:36 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mRecording started &amp#27;[m&amp#27;[90m| com.automation.remarks.video.recorder.monte.MonteRecorder&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:36 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mTarget URL: "https://automationexercise.com/" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:36 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230429-183143", Target File: "\1682782303695_setUp.gif"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:43 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mNavigate to url "https://automationexercise.com/". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:45 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:45 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:45 pm&amp#27;[m 
 &amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
 ------------------------------------------------------------------------------------------------------------------------------------------------
-                                        Starting Execution: '2 out of 1' test cases in the current suite                                        
-                                      Test Method: 'Suits.RegisterTests.Register.testAccountCreatedMessage'                                      
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                            Test Method: 'Suits.RegisterTests.Register.testRegister'                                            
 ------------------------------------------------------------------------------------------------------------------------------------------------
- &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:07 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:07 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick " Signup / Login". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:08 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "Abdo" into "Name". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "ddd6@ddaaqqwddd.com" into "Email Address". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:12 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Signup". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:13 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Mr.". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:16 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "123456" into "Password *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:18 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "6" from "By.id: days". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:19 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "June" from "By.id: months". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:21 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "1998" from "By.id: years". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:23 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "By.cssSelector: [for='newsletter']". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:24 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "test" into "First name *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:25 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "dd" into "Last name *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:26 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "youxel" into "Company". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:27 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "eee" into "Address * (Street address, P.O. Box, Company name, etc.)". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:28 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "Canada" from "Country *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:29 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "ddd" into "State *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:30 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "ddd" into "City * Zipcode *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:31 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "123" into "By.id: zipcode". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:32 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "01234564" into "Mobile Number *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:33 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Create Account". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:33 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:37 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mGet text "ACCOUNT CREATED!" from "By.cssSelector: h2 b". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:38 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExpected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:38 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAssertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:40 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Screenshot - 1682452119578_testAccountCreatedMessage_ValidateElementAttribute_passed' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:40 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Continue". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:48:41 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:06 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mGet text "Logged in as Abdo" from "By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:08 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExpected "Logged in as Abdo", and actual "Logged in as Abdo" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:08 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAssertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as Abdo' for the 'text' attribute, element locator 'By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:10 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Screenshot - 1682452209966_testAccountCreatedMessage_ValidateElementAttribute_passed' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:10 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick " Delete Account". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "targetOperatingSystem" property with "WINDOWS". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "screenshotParams_screenshotType" property with "Regular". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAttempting to run locally on: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mIdentifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mUsing chromedriver 112.0.5615.49 (resolved driver for Chrome 112) &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mStarting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 36547 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mOnly local connections are allowed. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mChromeDriver was started successfully. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452211.588][WARNING]: Ignoring unrecognized log type: client &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452211.588][WARNING]: Ignoring unrecognized log type: profiler &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682452211.588][WARNING]: Ignoring unrecognized log type: server &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 09:50:11 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mApr 25, 2023 9:50:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:12 pm&amp#27;[m 
-&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mWARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:12 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully Opened: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:12 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:50:12 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFailed to Get text from "By.cssSelector: h2 b". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:11 pm&amp#27;[m 
-&amp#27;[31;1m[ERROR]&amp#27;[m &amp#27;[morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dedf175bdac2755f3583c9c46f38c828, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58543}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58543/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dedf175bdac2755f3583c9c46f38c828
- java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
- java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
- java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
- org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
- org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
- org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
- org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
- com.shaft.gui.internal.image.ScreenshotManager.takeViewportScreenshot(ScreenshotManager.java:235)
- com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:440)
- com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:378)
- com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:123)
- com.shaft.validation.internal.ValidationsHelper.reportValidationState(ValidationsHelper.java:688)
- com.shaft.validation.internal.ValidationsHelper.fail(ValidationsHelper.java:450)
- com.shaft.validation.internal.ValidationsHelper.validateElementAttribute(ValidationsHelper.java:165)
- com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:149)
- Suits.RegisterTests.Register.testAccountCreatedMessage(Register.java:38)
- java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
- java.base/java.lang.reflect.Method.invoke(Method.java:577)
- org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
- org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
- org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
- org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
- org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
- org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
- org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
- org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
- java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
- org.testng.TestRunner.privateRun(TestRunner.java:829)
- org.testng.TestRunner.run(TestRunner.java:602)
- org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
- org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
- org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
- org.testng.SuiteRunner.run(SuiteRunner.java:330)
- org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
- org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
- org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
- org.testng.TestNG.runSuitesSequentially(TestNG.java:1251)
- org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
- org.testng.TestNG.runSuites(TestNG.java:1099)
- org.testng.TestNG.run(TestNG.java:1067)
- org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
- org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
- org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
- org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
- org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
- org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
- org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:11 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Animated Gif - testAccountCreatedMessage' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:24 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'SHAFT Engine Logs - Current Method log: testAccountCreatedMessage' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:24 pm&amp#27;[m 
-&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 09:51:24 pm&amp#27;[m 
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:45 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:45 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick " Signup / Login". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:46 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "Abdo" into "Name". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:50 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "testAbdoEmad12345678910@gmail.com" into "Email Address". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:50 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Signup". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:51 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Mr.". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:54 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "123456" into "Password *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:54 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "6" from "By.id: days". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:55 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "June" from "By.id: months". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:56 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "1998" from "By.id: years". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:58 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "By.cssSelector: [for='newsletter']". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:58 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "test" into "First name *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:59 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "dd" into "Last name *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:31:59 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "youxel" into "Company". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:00 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "eee" into "Address * (Street address, P.O. Box, Company name, etc.)". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:00 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSelect "Canada" from "Country *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:01 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "ddd" into "State *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:02 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "ddd" into "City * Zipcode *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:02 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "123" into "By.id: zipcode". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:03 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "01234564" into "Mobile Number *". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:03 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Create Account". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:04 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:08 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mGet text "ACCOUNT CREATED!" from "By.cssSelector: h2 b". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:08 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExpected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:08 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAssertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Screenshot - 1682782329473_testRegister_ValidateElementAttribute_passed' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Animated Gif - testRegister' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'SHAFT Engine Logs - Current Method log: testRegister' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginFunctionality" classname="Suits.Login.LoginTest" time="11.921">
+    <system-out><![CDATA[&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                          'Suits.Login.LoginTest.setUp'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "targetOperatingSystem" property with "WINDOWS". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting "screenshotParams_screenshotType" property with "Regular". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAttempting to run locally on: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mIdentifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mUsing chromedriver 112.0.5615.49 (resolved driver for Chrome 112) &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe &amp#27;[m&amp#27;[90m| io.github.bonigarcia.wdm.WebDriverManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mStarting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 13920 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mOnly local connections are allowed. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mChromeDriver was started successfully. &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782329.936][WARNING]: Ignoring unrecognized log type: client &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782329.936][WARNING]: Ignoring unrecognized log type: profiler &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[m[1682782329.936][WARNING]: Ignoring unrecognized log type: server &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- Exec Stream Pumper&amp#27;[m &amp#27;[90m- 06:32:09 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mApr 29, 2023 6:32:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:10 pm&amp#27;[m 
+&amp#27;[33;1m[WARN]&amp#27;[m &amp#27;[mWARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111 &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:10 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully Opened: "WINDOWS | Chrome". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:10 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mTarget URL: "https://automationexercise.com/" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:10 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mFile Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230429-183143", Target File: "\1682782337648_setUp.gif"". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:17 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mNavigate to url "https://automationexercise.com/". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:18 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:18 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'false' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:18 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[m
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                           Test Method: 'Suits.Login.LoginTest.testLoginFunctionality'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+ &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:18 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:18 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick " Signup / Login". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:19 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "testAbdoEmad12345678910@gmail.com" into "Email Address". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:21 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mType "123456" into "Password". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:22 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mClick "Login". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:23 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:28 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mGet text "Logged in as Abdo" from "By.xpath: //div/div/div/div[2]/div/ul/li[10]/a". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:29 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mExpected "Logged in as", and actual "Logged in as Abdo" &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:29 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mAssertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as' for the 'text' attribute, element locator 'By.xpath: //div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE". &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:30 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Screenshot - 1682782350059_testLoginFunctionality_ValidateElementAttribute_passed' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:30 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'Animated Gif - testLoginFunctionality' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:30 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSuccessfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginFunctionality' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:30 pm&amp#27;[m 
+&amp#27;[38;2;0;96;168;1m[INFO]&amp#27;[m &amp#27;[mSetting discrete logging to: 'true' &amp#27;[m&amp#27;[90m| com.shaft.tools.io.ReportManager&amp#27;[m &amp#27;[90m- main&amp#27;[m &amp#27;[90m- 06:32:30 pm&amp#27;[m 
 ]]></system-out>
   </testcase>
 </testsuite>

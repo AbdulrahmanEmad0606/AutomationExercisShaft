@@ -14,10 +14,17 @@ public class RegisterPage {
     private By registerName = By.cssSelector("input[data-qa='signup-name']");
     private By registerEmailAddress = By.cssSelector("input[data-qa='signup-email']");
     private By signUpBtn = By.cssSelector("button[data-qa='signup-button']");
+    private By loginEmailAddress=By.cssSelector("input[data-qa='login-email']");
+    private By loginPassword = By.name("password");
+    private By loginButton = By.cssSelector("button[data-qa='login-button']");
     // actions
     public Account fillRegistrationFields(String name,String mail){
         driver.element().type(registerName,name)
                 .type(registerEmailAddress,mail).click(signUpBtn);
         return signUpPage.fillData();
+    }
+    public HomePage loginAndNavigateToHomePage(String mail,String password){
+        driver.element().type(loginEmailAddress,mail).type(loginPassword,password).click(loginButton);
+        return new HomePage(driver);
     }
 }

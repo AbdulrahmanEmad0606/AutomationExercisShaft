@@ -1,31 +1,28 @@
-[INFO ] 2023-04-25 21:52:28.387 [main] ReportManager - 
+[INFO ] 2023-04-29 18:31:32.275 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                       Powered by SHAFT Engine v7.2.20230419                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - Loaded OpenCV "opencv_java470".
-[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - File Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"".
-[INFO ] 2023-04-25 21:52:29.349 [main] ReportManager - Initializing Allure Reporting Environment...
-[INFO ] 2023-04-25 21:52:29.494 [main] ReportManager - Initializing Extent Reporting Environment...
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getPreserveOrder: true
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getDataProviderThreadCount: 1
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getThreadCount: 1
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getVerbose: 1
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getGroupByInstances: true
-[INFO ] 2023-04-25 21:52:29.899 [main] ReportManager - getParallel: none
-[INFO ] 2023-04-25 21:52:30.064 [main] Utils - [TestNG] Running:
-  D:\Study\Shaft\Automationexercise\src\test\java\ExecutionFiles\Auth.xml
-
-[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - Setting discrete logging to: 'false'
-[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - 
+[INFO ] 2023-04-29 18:31:33.479 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-04-29 18:31:33.488 [main] ReportManager - File Action "DeleteFolder" successfully performed. With the following test data "Target Folder: "execution-summary"".
+[INFO ] 2023-04-29 18:31:33.490 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-04-29 18:31:33.669 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-04-29 18:31:34.153 [main] ReportManager - getPreserveOrder: true
+[INFO ] 2023-04-29 18:31:34.154 [main] ReportManager - getDataProviderThreadCount: 1
+[INFO ] 2023-04-29 18:31:34.154 [main] ReportManager - getThreadCount: 1
+[INFO ] 2023-04-29 18:31:34.156 [main] ReportManager - getVerbose: 1
+[INFO ] 2023-04-29 18:31:34.156 [main] ReportManager - getGroupByInstances: true
+[INFO ] 2023-04-29 18:31:34.157 [main] ReportManager - getParallel: none
+[INFO ] 2023-04-29 18:31:34.358 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:31:34.358 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                              Starting execution of suite setup configuration method                                             
                                           'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-04-25 21:52:30.080 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - Initializing Important Links...
-[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0210 pm
+[INFO ] 2023-04-29 18:31:34.359 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:31:34.455 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-04-29 18:31:34.461 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0459 pm
 <ul>
     <li>👨‍💻️ <a href="https://github.com/ShaftHQ/SHAFT_ENGINE" target=”_blank”>GitHub - Home</a></li>
     <li>👤 <a href="https://shafthq.github.io/SHAFT_Engine_Docusaurus/" target=”_blank”>User Guide</a></li>
@@ -33,8 +30,8 @@
     <li>📚 <a href="https://shafthq.github.io/SHAFT_ENGINE/apidocs/index.html" target=”_blank”>Javadocs</a></li>
 </ul>
 
-[INFO ] 2023-04-25 21:52:30.210 [main] ReportManager - Initializing Properties...
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0270 pm
+[INFO ] 2023-04-29 18:31:34.464 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-04-29 18:31:34.522 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0521 pm
 #############
 # https://cucumber.io/docs/cucumber/api/#list-configuration-options
 ##############
@@ -67,14 +64,14 @@ cucumber.snippet-type=underscore
 cucumber.publish.quiet=true
 CUCUMBER_PUBLISH_ENABLED=false
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.538 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0538 pm
 # Use this to add any custom capabilities
 # This includes SeeTest Continuous Testing cloud platform capabilities: https://docs.experitest.com/display/TE/Application+Setup
 capabilities.accessKey=
 capabilities.appiumVersion=
 capabilities.deviceQuery=
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.541 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0541 pm
 ###################################################
 ##### SHAFT_Engine: JiraXRay.properties
 ###################################################
@@ -95,7 +92,7 @@ allure.link.custom.pattern={}
 ##### END of Properties File
 ###################################################
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.542 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0542 pm
 name=PropertiesConfig
 appender.console.type=Console
 appender.console.name=STDOUT
@@ -115,7 +112,7 @@ rootLogger=debug, STDOUT, LOGFILE
 logger.app.name=org.apache.http.impl.client
 logger.app.level=WARN
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.543 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0543 pm
 ###################################################
 ##### SHAFT_Engine Path Properties
 ###################################################
@@ -132,7 +129,7 @@ applitoolsApiKey=
 ##### END of Properties File
 ###################################################
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.544 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0544 pm
 ###################################################
 ##### SHAFT_Engine: Reporting.properties
 ###################################################
@@ -152,7 +149,7 @@ openLighthouseReportWhileExecution=true
 ##### END of Properties File
 ###################################################
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.545 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0545 pm
 ###################################################
 ##### SHAFT_Engine: TestNG.properties
 ###################################################
@@ -166,7 +163,7 @@ setDataProviderThreadCount=1
 ##### END of PropertiesHelper File
 ###################################################
 
-[INFO ] 2023-04-25 21:52:30.286 [main] ReportManager - [ReportManager] Debugging Attachment Entry @25-04-2023 21:52:30.0286 pm
+[INFO ] 2023-04-29 18:31:34.546 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:31:34.0546 pm
 ###################################################
 ##### SHAFT_Engine: VisualValidations.properties
 ###################################################
@@ -187,165 +184,682 @@ whenToTakePageSourceSnapshot=FailuresOnly
 ##### END of Properties File
 ###################################################
 
-[INFO ] 2023-04-25 21:52:30.302 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - Setting discrete logging to: 'false'
-[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - 
+[INFO ] 2023-04-29 18:31:34.565 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:31:34.594 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:31:34.595 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
                                                 Starting execution of set up configuration method                                                
                                                       'Suits.RegisterTests.Register.setUp'                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-04-25 21:52:30.332 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
-[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
-[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:52:30.342 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
-[INFO ] 2023-04-25 21:52:30.349 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
-[DEBUG] 2023-04-25 21:52:30.715 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 22:42:26 25/04/2023 EET)
-[DEBUG] 2023-04-25 21:52:30.715 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 03:20:10 26/04/2023 EET)
-[INFO ] 2023-04-25 21:52:30.715 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
-[DEBUG] 2023-04-25 21:52:30.731 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
-[INFO ] 2023-04-25 21:52:30.731 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
-[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 10705
-[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
-[WARN ] 2023-04-25 21:52:31.001 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[WARN ] 2023-04-25 21:52:31.017 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
-[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: client
-[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: profiler
-[WARN ] 2023-04-25 21:52:31.243 [Exec Stream Pumper] ReportManager - [1682452351.239][WARNING]: Ignoring unrecognized log type: server
-[WARN ] 2023-04-25 21:52:32.090 [main] ReportManager - Apr 25, 2023 9:52:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-[WARN ] 2023-04-25 21:52:32.090 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
-[INFO ] 2023-04-25 21:52:32.115 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
-[INFO ] 2023-04-25 21:52:32.226 [main] MonteRecorder - Recording started
-[INFO ] 2023-04-25 21:52:32.259 [main] ReportManager - Target URL: "https://automationexercise.com/"
-[INFO ] 2023-04-25 21:52:54.804 [main] ReportManager - File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230425-215254", Target File: "\1682452374611_setUp.gif"".
-[INFO ] 2023-04-25 21:52:56.204 [main] ReportManager - Navigate to url "https://automationexercise.com/".
-[INFO ] 2023-04-25 21:52:56.204 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - Setting discrete logging to: 'false'
-[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - 
+[INFO ] 2023-04-29 18:31:34.595 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:31:34.612 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-04-29 18:31:34.614 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-04-29 18:31:34.615 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:31:34.616 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:31:34.622 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:31:34.623 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:31:34.629 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-04-29 18:31:34.630 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-04-29 18:31:34.994 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 19:24:30 29/04/2023 EEST)
+[DEBUG] 2023-04-29 18:31:34.995 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 14:56:39 30/04/2023 EEST)
+[INFO ] 2023-04-29 18:31:34.996 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+[DEBUG] 2023-04-29 18:31:35.005 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
+[INFO ] 2023-04-29 18:31:35.006 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+[WARN ] 2023-04-29 18:31:35.302 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 1506
+[WARN ] 2023-04-29 18:31:35.302 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-04-29 18:31:35.302 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-04-29 18:31:35.309 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-04-29 18:31:35.504 [Exec Stream Pumper] ReportManager - [1682782295.504][WARNING]: Ignoring unrecognized log type: client
+[WARN ] 2023-04-29 18:31:35.504 [Exec Stream Pumper] ReportManager - [1682782295.505][WARNING]: Ignoring unrecognized log type: profiler
+[WARN ] 2023-04-29 18:31:35.504 [Exec Stream Pumper] ReportManager - [1682782295.505][WARNING]: Ignoring unrecognized log type: server
+[WARN ] 2023-04-29 18:31:36.393 [main] ReportManager - Apr 29, 2023 6:31:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-04-29 18:31:36.394 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+[INFO ] 2023-04-29 18:31:36.411 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-04-29 18:31:36.613 [main] MonteRecorder - Recording started
+[INFO ] 2023-04-29 18:31:36.670 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2023-04-29 18:31:43.954 [main] ReportManager - File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230429-183143", Target File: "\1682782303695_setUp.gif"".
+[INFO ] 2023-04-29 18:31:45.398 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2023-04-29 18:31:45.398 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:31:45.430 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:31:45.430 [main] ReportManager - 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
-                                      Test Method: 'Suits.RegisterTests.Register.testAccountCreatedMessage'                                      
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                            Test Method: 'Suits.RegisterTests.Register.testRegister'                                            
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-[INFO ] 2023-04-25 21:52:56.246 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:52:57.300 [main] ReportManager - Click " Signup / Login".
-[INFO ] 2023-04-25 21:53:00.800 [main] ReportManager - Type "Abdo" into "Name".
-[INFO ] 2023-04-25 21:53:01.407 [main] ReportManager - Type "ddd6@ddaaqqwddd.com" into "Email Address".
-[INFO ] 2023-04-25 21:53:02.168 [main] ReportManager - Click "Signup".
-[INFO ] 2023-04-25 21:53:06.373 [main] ReportManager - Click "Mr.".
-[INFO ] 2023-04-25 21:53:09.058 [main] ReportManager - Type "123456" into "Password *".
-[INFO ] 2023-04-25 21:53:10.561 [main] ReportManager - Select "6" from "By.id: days".
-[INFO ] 2023-04-25 21:53:12.468 [main] ReportManager - Select "June" from "By.id: months".
-[INFO ] 2023-04-25 21:53:15.780 [main] ReportManager - Select "1998" from "By.id: years".
-[INFO ] 2023-04-25 21:53:17.203 [main] ReportManager - Click "By.cssSelector: [for='newsletter']".
-[INFO ] 2023-04-25 21:53:18.873 [main] ReportManager - Type "test" into "First name *".
-[INFO ] 2023-04-25 21:53:20.354 [main] ReportManager - Type "dd" into "Last name *".
-[INFO ] 2023-04-25 21:53:21.695 [main] ReportManager - Type "youxel" into "Company".
-[INFO ] 2023-04-25 21:53:23.182 [main] ReportManager - Type "eee" into "Address * (Street address, P.O. Box, Company name, etc.)".
-[INFO ] 2023-04-25 21:53:24.971 [main] ReportManager - Select "Canada" from "Country *".
-[INFO ] 2023-04-25 21:53:26.126 [main] ReportManager - Type "ddd" into "State *".
-[INFO ] 2023-04-25 21:53:27.193 [main] ReportManager - Type "ddd" into "City * Zipcode *".
-[INFO ] 2023-04-25 21:53:28.139 [main] ReportManager - Type "123" into "By.id: zipcode".
-[INFO ] 2023-04-25 21:53:29.287 [main] ReportManager - Type "01234564" into "Mobile Number *".
-[INFO ] 2023-04-25 21:53:30.185 [main] ReportManager - Click "Create Account".
-[INFO ] 2023-04-25 21:53:34.763 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:53:35.699 [main] ReportManager - Get text "ACCOUNT CREATED!" from "By.cssSelector: h2 b".
-[INFO ] 2023-04-25 21:53:35.699 [main] ReportManager - Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!"
-[INFO ] 2023-04-25 21:53:37.233 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE".
-[INFO ] 2023-04-25 21:53:37.241 [main] ReportManager - Successfully created attachment 'Screenshot - 1682452416495_testAccountCreatedMessage_ValidateElementAttribute_passed'
-[INFO ] 2023-04-25 21:53:38.484 [main] ReportManager - Click "Continue".
-[INFO ] 2023-04-25 21:53:38.521 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:53:44.295 [main] ReportManager - Get text "Logged in as Abdo" from "By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a".
-[INFO ] 2023-04-25 21:53:44.295 [main] ReportManager - Expected "Logged in as Abdo", and actual "Logged in as Abdo"
-[INFO ] 2023-04-25 21:53:45.812 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as Abdo' for the 'text' attribute, element locator 'By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE".
-[INFO ] 2023-04-25 21:53:45.815 [main] ReportManager - Successfully created attachment 'Screenshot - 1682452425387_testAccountCreatedMessage_ValidateElementAttribute_passed'
-[INFO ] 2023-04-25 21:55:19.539 [main] ReportManager - Click " Delete Account".
-[INFO ] 2023-04-25 21:55:19.543 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
-[INFO ] 2023-04-25 21:55:19.543 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
-[INFO ] 2023-04-25 21:55:19.551 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:55:19.551 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:55:19.553 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:55:19.553 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
-[INFO ] 2023-04-25 21:55:19.557 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
-[INFO ] 2023-04-25 21:55:19.557 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
-[DEBUG] 2023-04-25 21:55:19.567 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 22:42:26 25/04/2023 EET)
-[DEBUG] 2023-04-25 21:55:19.567 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 03:20:10 26/04/2023 EET)
-[INFO ] 2023-04-25 21:55:19.570 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
-[DEBUG] 2023-04-25 21:55:19.576 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
-[INFO ] 2023-04-25 21:55:19.576 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
-[WARN ] 2023-04-25 21:55:19.628 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 5628
-[WARN ] 2023-04-25 21:55:19.633 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
-[WARN ] 2023-04-25 21:55:19.633 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[WARN ] 2023-04-25 21:55:19.645 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
-[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: client
-[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: profiler
-[WARN ] 2023-04-25 21:55:19.667 [Exec Stream Pumper] ReportManager - [1682452519.667][WARNING]: Ignoring unrecognized log type: server
-[WARN ] 2023-04-25 21:55:20.368 [main] ReportManager - Apr 25, 2023 9:55:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-[WARN ] 2023-04-25 21:55:20.371 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
-[INFO ] 2023-04-25 21:55:20.371 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
-[INFO ] 2023-04-25 21:55:20.388 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Failed to Get text from "By.cssSelector: h2 b".
-[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Setting discrete logging to: 'true'
-[INFO ] 2023-04-25 21:55:49.844 [main] ReportManager - Setting discrete logging to: 'true'
-[ERROR] 2023-04-25 21:55:49.854 [main] ReportManager - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e79a36f22304ab246f141e2ca8197caa, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59671}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59671/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e79a36f22304ab246f141e2ca8197caa
- java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
- java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
- java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
- org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
- org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
- org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
- org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
- org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
- org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
- com.shaft.gui.internal.image.ScreenshotManager.takeViewportScreenshot(ScreenshotManager.java:235)
- com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:440)
- com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:378)
- com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:123)
- com.shaft.validation.internal.ValidationsHelper.reportValidationState(ValidationsHelper.java:688)
- com.shaft.validation.internal.ValidationsHelper.fail(ValidationsHelper.java:450)
- com.shaft.validation.internal.ValidationsHelper.validateElementAttribute(ValidationsHelper.java:165)
- com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:149)
- Suits.RegisterTests.Register.testAccountCreatedMessage(Register.java:38)
- java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
- java.base/java.lang.reflect.Method.invoke(Method.java:577)
- org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
- org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
- org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
- org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
- org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
- org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
- org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
- org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
- java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
- org.testng.TestRunner.privateRun(TestRunner.java:829)
- org.testng.TestRunner.run(TestRunner.java:602)
- org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
- org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
- org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
- org.testng.SuiteRunner.run(SuiteRunner.java:330)
- org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
- org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
- org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
- org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
- org.testng.TestNG.runSuites(TestNG.java:1099)
- org.testng.TestNG.run(TestNG.java:1067)
- com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
- com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-[DEBUG] 2023-04-25 21:55:53.930 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (e79a36f22304ab246f141e2ca8197caa)
-[DEBUG] 2023-04-25 21:55:53.930 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (cd279ba5d6214c4054749d2e1ae4611d)
+[INFO ] 2023-04-29 18:31:45.430 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:31:46.262 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2023-04-29 18:31:50.057 [main] ReportManager - Type "Abdo" into "Name".
+[INFO ] 2023-04-29 18:31:50.618 [main] ReportManager - Type "testAbdoEmad12345678910@gmail.com" into "Email Address".
+[INFO ] 2023-04-29 18:31:51.210 [main] ReportManager - Click "Signup".
+[INFO ] 2023-04-29 18:31:54.096 [main] ReportManager - Click "Mr.".
+[INFO ] 2023-04-29 18:31:54.694 [main] ReportManager - Type "123456" into "Password *".
+[INFO ] 2023-04-29 18:31:55.755 [main] ReportManager - Select "6" from "By.id: days".
+[INFO ] 2023-04-29 18:31:56.747 [main] ReportManager - Select "June" from "By.id: months".
+[INFO ] 2023-04-29 18:31:58.253 [main] ReportManager - Select "1998" from "By.id: years".
+[INFO ] 2023-04-29 18:31:58.836 [main] ReportManager - Click "By.cssSelector: [for='newsletter']".
+[INFO ] 2023-04-29 18:31:59.387 [main] ReportManager - Type "test" into "First name *".
+[INFO ] 2023-04-29 18:31:59.852 [main] ReportManager - Type "dd" into "Last name *".
+[INFO ] 2023-04-29 18:32:00.379 [main] ReportManager - Type "youxel" into "Company".
+[INFO ] 2023-04-29 18:32:00.936 [main] ReportManager - Type "eee" into "Address * (Street address, P.O. Box, Company name, etc.)".
+[INFO ] 2023-04-29 18:32:01.791 [main] ReportManager - Select "Canada" from "Country *".
+[INFO ] 2023-04-29 18:32:02.256 [main] ReportManager - Type "ddd" into "State *".
+[INFO ] 2023-04-29 18:32:02.803 [main] ReportManager - Type "ddd" into "City * Zipcode *".
+[INFO ] 2023-04-29 18:32:03.389 [main] ReportManager - Type "123" into "By.id: zipcode".
+[INFO ] 2023-04-29 18:32:03.932 [main] ReportManager - Type "01234564" into "Mobile Number *".
+[INFO ] 2023-04-29 18:32:04.438 [main] ReportManager - Click "Create Account".
+[INFO ] 2023-04-29 18:32:08.127 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:08.637 [main] ReportManager - Get text "ACCOUNT CREATED!" from "By.cssSelector: h2 b".
+[INFO ] 2023-04-29 18:32:08.637 [main] ReportManager - Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!"
+[INFO ] 2023-04-29 18:32:09.669 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE".
+[INFO ] 2023-04-29 18:32:09.693 [main] ReportManager - Successfully created attachment 'Screenshot - 1682782329473_testRegister_ValidateElementAttribute_passed'
+[INFO ] 2023-04-29 18:32:09.708 [main] ReportManager - Successfully created attachment 'Animated Gif - testRegister'
+[INFO ] 2023-04-29 18:32:09.708 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegister'
+[INFO ] 2023-04-29 18:32:09.708 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:09.826 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:32:09.826 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                          'Suits.Login.LoginTest.setUp'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-29 18:32:09.826 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - Setting "targetOperatingSystem" property with "WINDOWS".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - Setting "screenshotParams_screenshotType" property with "Regular".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-04-29 18:32:09.830 [main] ReportManager - Attempting to run locally on: "WINDOWS | Chrome".
+[INFO ] 2023-04-29 18:32:09.838 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-04-29 18:32:09.846 [main] ResolutionCache - Resolution chrome=112 in cache (valid until 19:24:30 29/04/2023 EEST)
+[DEBUG] 2023-04-29 18:32:09.846 [main] ResolutionCache - Resolution chrome112=112.0.5615.49 in cache (valid until 14:56:39 30/04/2023 EEST)
+[INFO ] 2023-04-29 18:32:09.846 [main] WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+[DEBUG] 2023-04-29 18:32:09.846 [main] WebDriverManager - Driver chromedriver 112.0.5615.49 found in cache
+[INFO ] 2023-04-29 18:32:09.854 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+[WARN ] 2023-04-29 18:32:09.899 [Exec Stream Pumper] ReportManager - Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 13920
+[WARN ] 2023-04-29 18:32:09.899 [Exec Stream Pumper] ReportManager - Only local connections are allowed.
+[WARN ] 2023-04-29 18:32:09.899 [Exec Stream Pumper] ReportManager - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN ] 2023-04-29 18:32:09.903 [Exec Stream Pumper] ReportManager - ChromeDriver was started successfully.
+[WARN ] 2023-04-29 18:32:09.936 [Exec Stream Pumper] ReportManager - [1682782329.936][WARNING]: Ignoring unrecognized log type: client
+[WARN ] 2023-04-29 18:32:09.936 [Exec Stream Pumper] ReportManager - [1682782329.936][WARNING]: Ignoring unrecognized log type: profiler
+[WARN ] 2023-04-29 18:32:09.936 [Exec Stream Pumper] ReportManager - [1682782329.936][WARNING]: Ignoring unrecognized log type: server
+[WARN ] 2023-04-29 18:32:10.625 [main] ReportManager - Apr 29, 2023 6:32:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-04-29 18:32:10.625 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+[INFO ] 2023-04-29 18:32:10.625 [main] ReportManager - Successfully Opened: "WINDOWS | Chrome".
+[INFO ] 2023-04-29 18:32:10.649 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2023-04-29 18:32:17.748 [main] ReportManager - File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20230429-183143", Target File: "\1682782337648_setUp.gif"".
+[INFO ] 2023-04-29 18:32:18.375 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2023-04-29 18:32:18.375 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:18.375 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:32:18.375 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                           Test Method: 'Suits.Login.LoginTest.testLoginFunctionality'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-29 18:32:18.375 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:19.220 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2023-04-29 18:32:21.913 [main] ReportManager - Type "testAbdoEmad12345678910@gmail.com" into "Email Address".
+[INFO ] 2023-04-29 18:32:22.601 [main] ReportManager - Type "123456" into "Password".
+[INFO ] 2023-04-29 18:32:23.238 [main] ReportManager - Click "Login".
+[INFO ] 2023-04-29 18:32:28.563 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:29.257 [main] ReportManager - Get text "Logged in as Abdo" from "By.xpath: //div/div/div/div[2]/div/ul/li[10]/a".
+[INFO ] 2023-04-29 18:32:29.257 [main] ReportManager - Expected "Logged in as", and actual "Logged in as Abdo"
+[INFO ] 2023-04-29 18:32:30.271 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Logged in as' for the 'text' attribute, element locator 'By.xpath: //div/div/div/div[2]/div/ul/li[10]/a'" and Actual "Logged in as Abdo". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-04-29 18:32:30.279 [main] ReportManager - Successfully created attachment 'Screenshot - 1682782350059_testLoginFunctionality_ValidateElementAttribute_passed'
+[INFO ] 2023-04-29 18:32:30.288 [main] ReportManager - Successfully created attachment 'Animated Gif - testLoginFunctionality'
+[INFO ] 2023-04-29 18:32:30.288 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginFunctionality'
+[INFO ] 2023-04-29 18:32:30.288 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of suite teardown configuration method                                            
+                                        'com.shaft.listeners.internal.ConfigurationHelper.suiteTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-04-29 18:32:30.312 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-04-29 18:32:30.328 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "D:\Study\Shaft\Automationexercise\target\logs\log4j.log"".
+[INFO ] 2023-04-29 18:32:30.328 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log"".
+[INFO ] 2023-04-29 18:32:30.328 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.328 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20230429-183230'
+[DEBUG] 2023-04-29 18:32:30.361 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.361 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.361 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.361 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.361 [main] cache - Loading template for "spark/spark.spa.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-04-29 18:32:30.455 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.462 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.462 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.462 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.462 [main] cache - Loading template for "commons/commons-variables.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-04-29 18:32:30.573 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.573 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.573 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.573 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.573 [main] cache - Loading template for "commons/commons-macros.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-04-29 18:32:30.578 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.578 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.578 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.578 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.578 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - Loading template for "spark/macros/log.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - "spark/macros/log.ftl"("en_GB", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.581 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.589 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-04-29 18:32:30.589 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - Loading template for "spark/partials/head.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.598 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-04-29 18:32:30.606 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.614 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.614 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.614 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.614 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-04-29 18:32:30.623 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.623 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.623 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.623 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.623 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-04-29 18:32:30.658 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.659 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.659 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.659 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.659 [main] cache - Loading template for "spark/partials/test.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-04-29 18:32:30.667 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.667 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.672 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.672 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.672 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - "spark/partials/standard-content.ftl"("en_GB", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Loading template for "spark/partials/exception.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Loading template for "spark/partials/log.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_GB", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-04-29 18:32:30.680 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_GB.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.689 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-04-29 18:32:30.689 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-04-29 18:32:30.689 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-04-29 18:32:30.697 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-04-29 18:32:30.697 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-04-29 18:32:30.705 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:32:30.0697 pm
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+
+    <title>Checkpoints Report</title>
+
+    <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/tb/Table_Fixed_Header/vendor/bootstrap/css/bootstrap.min.css">
+    <br>
+    <style>
+    body {
+      background-color: #e9edf1;
+    }
+    .content {
+      max-width: 1400px;
+      margin: auto;
+      background-color:white;
+    }
+    .piechart {
+        display: block;
+        position: relative;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        background-image: conic-gradient(
+            MediumSeaGreen 360.0deg,
+            Tomato 0);
+    }
+
+    body,
+    .piechart {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .table100 .ps__rail-y{
+        width:9px;
+        background-color:transparent;
+        opacity:1!important;
+        right:5px
+    }
+    .table100 .ps__rail-y::before{
+        content:"";
+        display: block;
+        position: relative;
+        background-color:#ebebeb;
+        border-radius:5px;
+        width:100%;
+        height:calc(100% - 30px);
+        left:0;
+        top:15px
+    }
+    .table100 .ps__rail-y .ps__thumb-y{
+        width:100%;
+        right:0;
+        background-color:transparent;
+        opacity:1!important
+    }
+    .table100 .ps__rail-y .ps__thumb-y::before{
+        content:"";
+        display: block;
+        position: relative;
+        background-color:#ccc;
+        border-radius:5px;
+        width:100%;
+        height:calc(100% - 30px);
+        left:0;
+        top:15px
+    }
+    .limiter{
+        width:100%;
+        margin:0 auto
+    }
+    .container-table100{
+        width:100%;
+        min-height:100%;
+        background:#fff;
+        align-items:center;
+        justify-content:center;
+    }
+    .wrap-table100{
+        width:75%
+    }
+    .table100{
+        background-color:#fff
+    }
+    table{
+        width:100%
+    }
+    th,td{
+        font-weight:unset;
+        padding-right:10px
+    }
+    .table100-head th{
+        padding-top:18px;
+        padding-bottom:18px
+    }
+    .table100-body td{
+        padding-top:16px;
+        padding-bottom:16px
+    }
+    .table100{
+        position: relative;
+        padding-top:60px;
+        padding-bottom:60px
+    }
+    .table100-head{
+        position: relative;
+        width:100%;
+        top:0;
+        left:0
+    }
+    .table100-body{
+        max-height:585px;
+        overflow:auto
+    }
+    .table100.ver5{
+        margin-right:-30px
+    }
+    .table100.ver5 .table100-head{
+        padding-right:30px
+    }
+    .table100.ver5 th{
+        font-family: Roboto,sans-serif;
+        font-size:14px;
+        font-weight: bold;
+        color:#555;
+        line-height:1.4;
+        text-transform:uppercase;
+        background-color:transparent
+    }
+    .table100.ver5 td{
+        font-family: Roboto,sans-serif;
+        font-size:15px;
+        color:gray;
+        line-height:1.4;
+        background-color:#f7f7f7
+    }
+    .table100.ver5 .table100-body tr{
+        overflow:hidden;
+        border-bottom:10px solid #fff;
+        border-radius:10px
+    }
+    .table100.ver5 .table100-body table{
+        border-collapse:separate;
+        border-spacing:0 10px
+    }
+    .table100.ver5 .table100-body td{
+        border:solid 1px transparent;
+        border-style:solid none;
+        padding-top:10px;
+        padding-bottom:10px
+    }
+    .table100.ver5 .table100-body td:first-child{
+        border-left-style:solid;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px
+    }
+    .table100.ver5 .table100-body td:last-child{
+        border-right-style:solid;
+        border-bottom-right-radius:10px;
+        border-top-right-radius:10px
+    }
+    .table100.ver5 tr:hover td{
+        background-color:#ebebeb;
+        cursor:pointer
+    }
+    .table100.ver5 .table100-head th{
+        padding-top:25px;
+        padding-bottom:25px
+    }
+    .table100.ver5{
+        overflow:hidden
+    }
+    .table100.ver5 .table100-body{
+        padding-right:30px
+    }
+    .table100.ver5 .ps__rail-y{
+        right:0
+    }
+    .table100.ver5 .ps__rail-y::before{
+        background-color:#ebebeb
+    }
+    .table100.ver5 .ps__rail-y .ps__thumb-y::before{
+        background-color:#ccc
+    }
+    .column1{
+        width:5%;
+        padding-left:40px
+    }
+    .column2{
+        width:10%
+    }
+    .column3{
+        width:75%
+    }
+    .column4{
+        width:10%
+    }
+
+</style>
+</head>
+
+<body>
+<center>
+<h1>Checkpoints Report</h1>
+<br><div class="content">
+<h2><br><br>Summary</h2>
+<br><div class="piechart"></div>
+<br><h3><b>Total</b>:&nbsp2&nbsp|&nbsp<font style="color:MediumSeaGreen;"><b>Passed:</b>&nbsp2</font>&nbsp|&nbsp<font style="color:Tomato;"><b>Failed:</b>&nbsp0</font></h3>
+<h2><br><br>Details</h2>
+<div class="limiter">
+<div class="container-table100">
+<div class="wrap-table100">
+<div class="table100 ver5 m-b-110">
+<div class="table100-head">
+<table>
+<thead>
+<tr class="row100 head">
+<th class="cell100 column1">ID</th>
+<th class="cell100 column2">Type</th>
+<th class="cell100 column3">Message</th>
+<th class="cell100 column4">Status</th>
+</tr>
+</thead>
+</table>
+</div>
+<div class="table100-body js-pscroll ps ps--active-y">
+<table>
+<tbody><tr class="row100 body"><td class="cell100 column1">1</td><td class="cell100 column2">ASSERTION</td><td class="cell100 column3">The Element located by "By.cssSelector: h2 b" text equals "ACCOUNT CREATED!", ignoring case sensitivity.</td><td class="cell100 column4">PASS</td></tr><tr class="row100 body"><td class="cell100 column1">2</td><td class="cell100 column2">ASSERTION</td><td class="cell100 column3">The Element located by "By.xpath: //div/div/div/div[2]/div/ul/li[10]/a" text contains "Logged in as".</td><td class="cell100 column4">PASS</td></tr></tbody>
+</table>
+<div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<br><br>
+</div>
+</center>
+</body>
+</html>
+
+[INFO ] 2023-04-29 18:32:30.705 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.705 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:30.705 [main] ReportManager - Generating Allure Report Archive...
+[INFO ] 2023-04-29 18:32:30.713 [main] ReportManager - Executing: ".\C:\Users\DELL\.m2\repository\allure\allure-2.21.0/bin/allure.bat generate 'allure-results' -o 'generatedReport/allure-report'" locally.
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: "C:\Users\DELL\.m2\repository\allure\allure-2.21.0/bin/allure.bat generate 'allure-results' -o 'generatedReport/allure-report'" | Exit Status: "1"".
+[ERROR] 2023-04-29 18:32:30.996 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-04-29 18:32:30.996 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - Successfully created attachment 'Terminal Action Actual Result - Command Log'
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - [ReportManager] Debugging Attachment Entry @29-04-2023 18:32:30.0996 pm
+.\C:\Users\DELL\.m2\repository\allure\allure-2.21.0/bin/allure.bat : The term 
+'.\C:\Users\DELL\.m2\repository\allure\allure-2.21.0/bin/allure.bat' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:1
++ .\C:\Users\DELL\.m2\repository\allure\allure-2.21.0/bin/allure.bat ge ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\C:\Users\DELL.../bin/allure.bat:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+[ERROR] 2023-04-29 18:32:30.996 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2023-04-29 18:32:30.996 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "C:\Users\DELL\.m2\repository\allure\"".
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "C:\Users\DELL\.m2\repository\allure\"".
+[INFO ] 2023-04-29 18:32:30.996 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "C:\Users\DELL\.m2\repository\allure\"".
+[INFO ] 2023-04-29 18:32:31.218 [main] ReportManager - File Action "CopyFolder" successfully performed. With the following test data "Source Folder: "C:\Users\DELL\.m2\repository\allure" | Destination Folder: "generatedReport\allure"".
+[INFO ] 2023-04-29 18:32:31.267 [main] ReportManager - File Action "CopyFolder" successfully performed. With the following test data "Source Folder: "allure-results" | Destination Folder: "generatedReport\allure-results"".
+[INFO ] 2023-04-29 18:32:31.267 [main] ReportManager - Archiving the following files:
+generatedReport\allure\allure-2.21.0\bin\allure
+generatedReport\allure\allure-2.21.0\bin\allure.bat
+generatedReport\allure\allure-2.21.0\config\allure-cucumber.yml
+generatedReport\allure\allure-2.21.0\config\allure-junit.yml
+generatedReport\allure\allure-2.21.0\config\allure.yml
+generatedReport\allure\allure-2.21.0\lib\allure-commandline-2.21.0.jar
+generatedReport\allure\allure-2.21.0\lib\allure-generator-2.21.0.jar
+generatedReport\allure\allure-2.21.0\lib\allure-model-2.20.1.jar
+generatedReport\allure\allure-2.21.0\lib\allure-plugin-api-2.21.0.jar
+generatedReport\allure\allure-2.21.0\lib\allure1-model-1.0.jar
+generatedReport\allure\allure-2.21.0\lib\annotations-15.0.jar
+generatedReport\allure\allure-2.21.0\lib\commons-beanutils-1.9.4.jar
+generatedReport\allure\allure-2.21.0\lib\commons-codec-1.11.jar
+generatedReport\allure\allure-2.21.0\lib\commons-collections-3.2.2.jar
+generatedReport\allure\allure-2.21.0\lib\commons-collections4-4.2.jar
+generatedReport\allure\allure-2.21.0\lib\commons-io-2.11.0.jar
+generatedReport\allure\allure-2.21.0\lib\commons-lang3-3.12.0.jar
+generatedReport\allure\allure-2.21.0\lib\commons-logging-1.2.jar
+generatedReport\allure\allure-2.21.0\lib\commons-text-1.3.jar
+generatedReport\allure\allure-2.21.0\lib\config\jetty-logging.properties
+generatedReport\allure\allure-2.21.0\lib\config\logback.xml
+generatedReport\allure\allure-2.21.0\lib\flexmark-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-ext-tables-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-ast-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-builder-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-collection-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-data-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-dependency-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-format-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-html-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-misc-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-options-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-sequence-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\flexmark-util-visitor-0.62.2.jar
+generatedReport\allure\allure-2.21.0\lib\freemarker-2.3.32.jar
+generatedReport\allure\allure-2.21.0\lib\httpclient-4.5.14.jar
+generatedReport\allure\allure-2.21.0\lib\httpcore-4.4.16.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-annotations-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-core-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-databind-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-dataformat-xml-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-dataformat-yaml-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jackson-module-jaxb-annotations-2.14.1.jar
+generatedReport\allure\allure-2.21.0\lib\jakarta.activation-api-1.2.2.jar
+generatedReport\allure\allure-2.21.0\lib\jakarta.xml.bind-api-2.3.3.jar
+generatedReport\allure\allure-2.21.0\lib\javax.activation-api-1.2.0.jar
+generatedReport\allure\allure-2.21.0\lib\javax.servlet-api-3.1.0.jar
+generatedReport\allure\allure-2.21.0\lib\jaxb-api-2.3.1.jar
+generatedReport\allure\allure-2.21.0\lib\jaxb-utils-1.0.jar
+generatedReport\allure\allure-2.21.0\lib\jcommander-1.82.jar
+generatedReport\allure\allure-2.21.0\lib\jetty-http-9.4.49.v20220914.jar
+generatedReport\allure\allure-2.21.0\lib\jetty-io-9.4.49.v20220914.jar
+generatedReport\allure\allure-2.21.0\lib\jetty-server-9.4.49.v20220914.jar
+generatedReport\allure\allure-2.21.0\lib\jetty-util-9.4.49.v20220914.jar
+generatedReport\allure\allure-2.21.0\lib\logback-classic-1.3.5.jar
+generatedReport\allure\allure-2.21.0\lib\logback-core-1.3.5.jar
+generatedReport\allure\allure-2.21.0\lib\opencsv-4.6.jar
+generatedReport\allure\allure-2.21.0\lib\properties-2.0.RC5.jar
+generatedReport\allure\allure-2.21.0\lib\slf4j-api-2.0.3.jar
+generatedReport\allure\allure-2.21.0\lib\snakeyaml-1.33.jar
+generatedReport\allure\allure-2.21.0\lib\stax2-api-4.2.1.jar
+generatedReport\allure\allure-2.21.0\lib\tika-core-2.6.0.jar
+generatedReport\allure\allure-2.21.0\lib\woodstox-core-6.4.0.jar
+generatedReport\allure\allure-2.21.0\plugins\behaviors-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\behaviors-plugin\behaviors-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\behaviors-plugin\static\index.js
+generatedReport\allure\allure-2.21.0\plugins\custom-logo-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\custom-logo-plugin\custom-logo-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\custom-logo-plugin\static\custom-logo.svg
+generatedReport\allure\allure-2.21.0\plugins\custom-logo-plugin\static\shaft_white.png
+generatedReport\allure\allure-2.21.0\plugins\custom-logo-plugin\static\styles.css
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\jira-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\allure-jira-commons-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\converter-jackson-2.6.1.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\jackson-annotations-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\jackson-core-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\jackson-databind-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\okhttp-3.12.0.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\okio-1.15.0.jar
+generatedReport\allure\allure-2.21.0\plugins\jira-plugin\lib\retrofit-2.6.1.jar
+generatedReport\allure\allure-2.21.0\plugins\junit-xml-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\junit-xml-plugin\junit-xml-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\packages-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\packages-plugin\packages-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\packages-plugin\static\index.js
+generatedReport\allure\allure-2.21.0\plugins\README.txt
+generatedReport\allure\allure-2.21.0\plugins\screen-diff-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\screen-diff-plugin\screen-diff-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\screen-diff-plugin\static\index.js
+generatedReport\allure\allure-2.21.0\plugins\screen-diff-plugin\static\styles.css
+generatedReport\allure\allure-2.21.0\plugins\trx-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\trx-plugin\trx-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xctest-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\xctest-plugin\lib\xmlwise-1.2.11.jar
+generatedReport\allure\allure-2.21.0\plugins\xctest-plugin\xctest-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\allure-jira-commons-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\converter-jackson-2.6.1.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\jackson-annotations-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\jackson-core-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\jackson-databind-2.14.1.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\okhttp-3.12.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\okio-1.15.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\lib\retrofit-2.6.1.jar
+generatedReport\allure\allure-2.21.0\plugins\xray-plugin\xray-plugin-2.21.0.jar
+generatedReport\allure\allure-2.21.0\plugins\xunit-xml-plugin\allure-plugin.yml
+generatedReport\allure\allure-2.21.0\plugins\xunit-xml-plugin\xunit-xml-plugin-2.21.0.jar
+generatedReport\allure-results\04c39cb2-a67a-426f-b88a-4127b2d2aa14-attachment
+generatedReport\allure-results\091d5489-5b78-40d7-953c-9dc5e0c20cc1-container.json
+generatedReport\allure-results\1036b14d-55ff-415b-a9ab-7105b8101240-result.json
+generatedReport\allure-results\10c18011-ac10-47cc-8760-a99d87412da2-attachment.properties
+generatedReport\allure-results\18bc4947-b241-48d3-a1b7-a889abd81735-attachment.properties
+generatedReport\allure-results\29727cd5-a50c-41cb-8b61-e8aa1bb9e660-result.json
+generatedReport\allure-results\2af96f16-15e8-4e66-85ed-e8564d08eb2c-attachment.html
+generatedReport\allure-results\36dfcd7f-44cd-4f5e-b2af-7a41b0817d8e-attachment.gif
+generatedReport\allure-results\59ede838-49ea-4fd0-a90e-11a4fe75add6-container.json
+generatedReport\allure-results\7284e1aa-6581-4ce8-a755-05bc7c8aff58-attachment.txt
+generatedReport\allure-results\76fe5b26-4b9e-4c79-90da-37ce886c0a8f-attachment.txt
+generatedReport\allure-results\78c60ef0-31de-4f61-bf9a-d311809f8a00-attachment.gif
+generatedReport\allure-results\84904c0b-09dc-4f88-aa78-bb071e99bba0-attachment.properties
+generatedReport\allure-results\89c235cb-cd85-4f0d-a6e5-86938d309212-attachment.png
+generatedReport\allure-results\8ca4b483-8094-4e1c-910c-37426c83cd81-attachment.properties
+generatedReport\allure-results\8f469485-9db2-48d9-8198-26a79aaf7181-attachment.png
+generatedReport\allure-results\a14852ae-2219-4bb5-97b1-ba5dba0847ec-container.json
+generatedReport\allure-results\a4c5ea68-ae37-4bcd-8ec7-39d13737b54c-attachment.txt
+generatedReport\allure-results\b486cc3d-bc7a-4f30-aed1-551eec1f660b-attachment.html
+generatedReport\allure-results\be74e85f-5773-41b3-8eb1-e0a0c34a5cf1-attachment.properties
+generatedReport\allure-results\dab57034-c9ac-411c-b74c-7c5964a36c26-attachment.properties
+generatedReport\allure-results\ebd5d915-1439-4981-8afd-210e2d9c4b61-attachment.properties
+generatedReport\allure-results\environment.xml
+generatedReport\allure-results\f558b46e-dc31-4ca3-9613-5d70cd934cc3-attachment.properties
+generatedReport\allure-results\fcc3b1d4-919c-4635-b365-3cbc4a410cae-container.json
+generatedReport\allure-results\screenshots\20230429-183143\1682782303695_setUp.gif
+generatedReport\allure-results\screenshots\20230429-183143\1682782337648_setUp.gif
+generatedReport\allure-results\videos\ScreenRecording 2023-04-29 at 18.31.36.avi
+generatedReport\open_allure_report.bat
+generatedReport\open_allure_report.sh
+[INFO ] 2023-04-29 18:32:35.438 [main] ReportManager - File Action "ZipFiles" successfully performed. With the following test data "Target Folder: "generatedReport/" | Destination Archive: "generatedReport_20230429-183231.zip"".
+[INFO ] 2023-04-29 18:32:35.485 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "generatedReport/"".
+[INFO ] 2023-04-29 18:32:35.485 [main] ReportManager - Executing: ".\generate_allure_report.bat" locally.
+[INFO ] 2023-04-29 18:32:35.501 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: "generate_allure_report.bat" | Exit Status: "asynchronous"".
+[INFO ] 2023-04-29 18:32:35.501 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_29-04-2023_18-32-35-0501-pm.html"".
+[INFO ] 2023-04-29 18:32:35.501 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "D:\Study\Shaft\Automationexercise\execution-summary\ExecutionSummaryReport_29-04-2023_18-32-35-0501-pm.html"".
+[INFO ] 2023-04-29 18:32:35.516 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
+[INFO ] 2023-04-29 18:32:35.829 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
+[INFO ] 2023-04-29 18:32:35.829 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:32:35.829 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 2 --> Passed: 2 | Failed: 0 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-29 18:32:35.846 [main] ReportManager - Setting discrete logging to: 'true'
+[INFO ] 2023-04-29 18:32:35.853 [main] ReportManager - Setting discrete logging to: 'false'
+[INFO ] 2023-04-29 18:32:35.853 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             This test run was powered by SHAFT Engine v7.2.20230419                                             
+                                  SHAFT Engine is *and will always be* 100% FREE for commercial and private use                                  
+                                                       in compliance with the MIT license                                                       
+                                           https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-04-29 18:32:35.853 [main] ReportManager - Setting discrete logging to: 'true'
+[DEBUG] 2023-04-29 18:32:35.952 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (4992b64cb416502484e3d0b34ce94314)
+[DEBUG] 2023-04-29 18:32:35.953 [wdm-shutdown-hook] WebDriverManager - Quitting ChromeDriver: chrome on WINDOWS (dfd833047b484a638322e633b975a3d6)

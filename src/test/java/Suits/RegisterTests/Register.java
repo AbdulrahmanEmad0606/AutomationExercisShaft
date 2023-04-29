@@ -7,14 +7,16 @@ import com.shaft.validation.Validations;
 import jdk.jfr.Description;
 import org.testng.annotations.Test;
 
+import java.util.Date;
+
 public class Register extends BaseTest {
-    @Description("Verify that 'ACCOUNT CREATED!' is visible and 'Logged in as username' is visible")
+    @Description("Verify that 'ACCOUNT CREATED!' is visible only")
     @Test
-    public void testAccountCreatedMessage(){
+    public void testRegister(){
         String name="Abdo";
         homePage.navigateToSignUpPage1();
         RegisterPage registerPage=new RegisterPage(driver);
-        registerPage.fillRegistrationFields(name,"ddd6@ddaaqqwddd.com");
+        registerPage.fillRegistrationFields(name,"testAbdoEmad12345678910@gmail.com");
         Account account=new Account(driver);
 
         Validations.assertThat()
@@ -22,20 +24,5 @@ public class Register extends BaseTest {
                 .text()
                 .equalsIgnoringCaseSensitivity("ACCOUNT CREATED!")
                 .perform();
-
-        account.clickOnContinueBtn();
-
-        Validations.assertThat().
-                element(homePage.getVerificationText())
-                .text()
-                .contains("Logged in as"+" "+name)
-                .perform();
-
-        Validations.assertThat().
-                element(homePage.navigateToDeleteAccount().getDeleteConfirmMessage())
-                .text()
-                .equalsIgnoringCaseSensitivity("Account Deleted!")
-                .perform();
-
     }
-   }
+}

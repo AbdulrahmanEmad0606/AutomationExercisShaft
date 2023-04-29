@@ -1,0 +1,35 @@
+[ReportManager] Setting discrete logging to: 'false' @29-04-2023 18:31:45.0430 pm
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                            Test Method: 'Suits.RegisterTests.Register.testRegister'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Setting discrete logging to: 'true' @29-04-2023 18:31:45.0430 pm
+[ReportManager] Click " Signup / Login". @29-04-2023 18:31:46.0262 pm
+[ReportManager] Type "Abdo" into "Name". @29-04-2023 18:31:50.0057 pm
+[ReportManager] Type "testAbdoEmad12345678910@gmail.com" into "Email Address". @29-04-2023 18:31:50.0618 pm
+[ReportManager] Click "Signup". @29-04-2023 18:31:51.0209 pm
+[ReportManager] Click "Mr.". @29-04-2023 18:31:54.0096 pm
+[ReportManager] Type "123456" into "Password *". @29-04-2023 18:31:54.0694 pm
+[ReportManager] Select "6" from "By.id: days". @29-04-2023 18:31:55.0755 pm
+[ReportManager] Select "June" from "By.id: months". @29-04-2023 18:31:56.0747 pm
+[ReportManager] Select "1998" from "By.id: years". @29-04-2023 18:31:58.0253 pm
+[ReportManager] Click "By.cssSelector: [for='newsletter']". @29-04-2023 18:31:58.0836 pm
+[ReportManager] Type "test" into "First name *". @29-04-2023 18:31:59.0387 pm
+[ReportManager] Type "dd" into "Last name *". @29-04-2023 18:31:59.0852 pm
+[ReportManager] Type "youxel" into "Company". @29-04-2023 18:32:00.0379 pm
+[ReportManager] Type "eee" into "Address * (Street address, P.O. Box, Company name, etc.)". @29-04-2023 18:32:00.0936 pm
+[ReportManager] Select "Canada" from "Country *". @29-04-2023 18:32:01.0791 pm
+[ReportManager] Type "ddd" into "State *". @29-04-2023 18:32:02.0256 pm
+[ReportManager] Type "ddd" into "City * Zipcode *". @29-04-2023 18:32:02.0791 pm
+[ReportManager] Type "123" into "By.id: zipcode". @29-04-2023 18:32:03.0389 pm
+[ReportManager] Type "01234564" into "Mobile Number *". @29-04-2023 18:32:03.0932 pm
+[ReportManager] Click "Create Account". @29-04-2023 18:32:04.0436 pm
+[ReportManager] Setting discrete logging to: 'true' @29-04-2023 18:32:08.0127 pm
+[ReportManager] Get text "ACCOUNT CREATED!" from "By.cssSelector: h2 b". @29-04-2023 18:32:08.0637 pm
+[ReportManager] Expected "ACCOUNT CREATED!", and actual "ACCOUNT CREATED!" @29-04-2023 18:32:08.0637 pm
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'ACCOUNT CREATED!' for the 'text' attribute, element locator 'By.cssSelector: h2 b'" and Actual "ACCOUNT CREATED!". Comparison Type "CASE_INSENSITIVE". Validation Type "POSITIVE". @29-04-2023 18:32:09.0669 pm
+[ReportManager] Assertion Passed: The Element located by "By.cssSelector: h2 b" text equals "ACCOUNT CREATED!", ignoring case sensitivity. @29-04-2023 18:32:09.0676 pm
+[ReportManager] Successfully created attachment 'Screenshot - 1682782329473_testRegister_ValidateElementAttribute_passed' @29-04-2023 18:32:09.0693 pm
+[ReportManager] Successfully created attachment 'Animated Gif - testRegister' @29-04-2023 18:32:09.0708 pm
