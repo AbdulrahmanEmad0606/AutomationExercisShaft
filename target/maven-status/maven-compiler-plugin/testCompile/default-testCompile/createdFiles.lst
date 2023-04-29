@@ -1,3 +1,5 @@
 Suits\HomePageTests\HomePageTest.class
+Suits\Login\LoginTest.class
 Suits\Basetest\BaseTest.class
 Suits\RegisterTests\Register.class
+Suits\RegisterTests\RegisterAndDeleteAccount.class
